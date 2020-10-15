@@ -4,6 +4,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using ElevenNote.WebAPI.Models;
+using ElevenNote.Data;
+using System.Data.Entity.ModelConfiguration;
 
 namespace ElevenNote.WebAPI
 {
@@ -42,4 +44,5 @@ namespace ElevenNote.WebAPI
             return manager;
         }
     }
+  
 }
